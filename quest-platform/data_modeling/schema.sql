@@ -37,7 +37,7 @@ ADD CONSTRAINT U_users_username UNIQUE (username);
 -- 2. AUTHORS
 CREATE TABLE authors (
     user_id INT NOT NULL,
-    psevdonim VARCHAR(255)
+    pseudonim VARCHAR(255)
 );
 
 ALTER TABLE authors 
@@ -96,7 +96,7 @@ CREATE TABLE vertices (
     id TEXT,
     text TEXT,
     ending VARCHAR(10),
-    ending_psevdonim TEXT,
+    ending_pseudonim TEXT,
     timer INT,
     quest_fk INT NOT NULL
 );
