@@ -1,6 +1,5 @@
 -- =============================================================================
 -- DDL — платформа квестов (PostgreSQL)
--- Согласуйте с ER-моделью и data_dictionary.md
 -- =============================================================================
 DROP TABLE IF EXISTS user_quest_completions CASCADE;
 DROP TABLE IF EXISTS quest_unlock_conditions CASCADE;
