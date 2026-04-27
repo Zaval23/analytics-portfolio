@@ -8,14 +8,8 @@
 |--------|------------|
 | `docs/` | Vision & Scope, BRD, пользовательские и системные требования, функциональные требования, глоссарий, сводное ТЗ |
 | `business_processes/` | Use Case: создание квеста, прохождение, валидация графа |
-| `data_modeling/` | ER (PNG/PDF/Erwin), DDL `schema.sql`, словарь данных |
+| `data_modeling/` | DDL `schema.sql`, словарь данных |
 | `sql_queries/` | Рекурсивный CTE для проверки графа (`validation_cte.sql`) |
-
-## Бинарные файлы в `data_modeling/`
-
-- `er_diagram.png` ? при необходимости замените экспортом из Erwin (сейчас может быть минимальная заглушка).
-- `er_diagram.pdf` ? положите PDF с диаграммой или замените текущий файл.
-- `erwin_source.erwin` ? **замените** файлом проекта из CA ERwin Data Modeler (заглушка не открывается в Erwin).
 
 ## Воспроизведение БД (PostgreSQL)
 
