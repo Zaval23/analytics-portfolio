@@ -7,7 +7,9 @@
 | Путь | Назначение |
 |------|------------|
 | `docs/ТЗ_соцсеть.md` | Формулировки задач и глоссарий |
-| `docs/ER_diagram.png` | ER-диаграмма |
+| `docs/ER_diagram.png` | ER-диаграмма изображение|
+| `docs/ER_diagram.pdf` | ER-диаграмма в PDF|
+| `docs/ER_diagram.erwin` | ER-диаграмма в ERwin|
 | `sql/schema.sql` | Создание объектов БД (`CREATE TABLE`, ограничения, индексы) |
 | `sql/test_data.sql` | Заполнение тестовыми данными |
 | `sql/all_queries.sql` | Все 60 запросов одним файлом (нумерация совпадает с ТЗ) |
