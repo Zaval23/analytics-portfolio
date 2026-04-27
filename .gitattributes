@@ -1,0 +1,8 @@
+# Чтобы PDF/PNG/Erwin не портились переводами строк на Windows
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.erwin binary
