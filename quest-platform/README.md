@@ -47,7 +47,7 @@ quest-platform/
 │   └── erwin_source.erwin                   # Исходник CA ERwin
 └── sql_queries/                             # SQL-запросы
     └── validation_cte.sql                   # Рекурсивный CTE — валидация графа (обход, например BFS)
-
+```
 ## Технологии
 
 | Компонент | Технология |
