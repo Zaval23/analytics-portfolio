@@ -1,6 +1,4 @@
--- =============================================================================
 -- Тестовые данные для БД «Социальная сеть»
--- =============================================================================
 TRUNCATE TABLE Messages CASCADE;
 TRUNCATE TABLE Likes CASCADE;
 TRUNCATE TABLE Comments CASCADE;
@@ -432,9 +430,7 @@ INSERT INTO Users (first_name, last_name, middle_name, date_of_birth, place_of_r
 
 
 
--- =====================================================
--- ДАННЫЕ ДЛЯ ЗАПРОСА 46 (гарантированно работающие)
--- =====================================================
+--доп данные
 
 -- 1. Удаляем старые тестовые сообщества (если есть)
 DELETE FROM Communities WHERE community_name IN ('Top_News', 'Top_Sports', 'Flop_Old', 'Flop_Empty');
