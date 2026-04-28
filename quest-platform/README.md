@@ -34,7 +34,7 @@ quest-platform/
 │   ├── 03_user_requirements.md              # Пользовательские требования (роли)
 │   ├── 04_system_requirements.md            # Системные требования (производительность, безопасность)
 │   ├── 05_functional_requirements.md        # Функциональные требования (модули)
-│   ├── glossary.md                          # Глоссарий (26 терминов)
+│   ├── glossary.md                          # Глоссарий (24 термина)
 │   └── ТЗ_платформа_квестов.md              # Сводное ТЗ и ссылки на артефакты
 ├── business_processes/                      # Use Cases (варианты использования)
 │   ├── UC-01_create_quest.md                # Создание квеста (автор)
@@ -43,10 +43,10 @@ quest-platform/
 ├── data_modeling/                           # Моделирование данных
 │   ├── schema.sql                           # DDL (CREATE TABLE, FOREIGN KEY, CHECK)
 │   ├── data_dictionary.md                   # Описание всех таблиц и полей
-│   ├── er_diagram.png                       # ER-диаграмма (~18 сущностей), опционально
-│   ├── er_diagram.pdf                       # PDF диаграммы, опционально
-│   └── erwin_source.erwin                   # Исходник CA ERwin, опционально
-└── sql_queries/                             # Продвинутые SQL-запросы
+│   ├── er_diagram.png                       # ER-диаграмма (18 сущностей)
+│   ├── er_diagram.pdf                       # PDF диаграмма
+│   └── erwin_source.erwin                   # Исходник CA ERwin
+└── sql_queries/                             # SQL-запросы
     └── validation_cte.sql                   # Рекурсивный CTE — валидация графа (обход, например BFS)
 
 ## Технологии
