@@ -23,36 +23,31 @@
 ---
 
 ## Структура проекта
+## Структура проекта
+
+```text
 quest-platform/
-
-README.md
-docs/ # Аналитическая документация
-
- -01_vision_and_scope.md # Концепция и границы проекта (что входит/не входит)
- 
- -02_business_requirements.md # Бизнес-требования (BRD) с приоритетами
- 
- -03_user_requirements.md # Пользовательские требования (3 роли)
- 
- -04_system_requirements.md # Системные требования (производительность, безопасность)
- 
- 
- glossary.md # Глоссарий (26 терминов)
-│
-├── business_processes/ # Use Cases (варианты использования)
-│ ├── UC-01_create_quest.md # Создание квеста (автор)
-│ ├── UC-02_play_quest.md # Прохождение квеста (игрок)
-│ └── UC-03_validate_graph.md # Валидация графа (система)
-│
-├── data_modeling/ # Моделирование данных
-│ ├── er_diagram.png # ER-диаграмма (18 сущностей)
-│ ├── er_diagram.pdf # PDF-версия
-│ ├── erwin_source.erwin # Исходник Erwin
-│ ├── schema.sql # DDL-скрипт (CREATE TABLE, FOREIGN KEY, CHECK)
-│ └── data_dictionary.md # Описание всех таблиц и полей
-│
-└── sql_queries/ # Продвинутые SQL-запросы
-└── validation_cte.sql # Рекурсивный CTE для валидации графа (BFS обход)
+├── README.md
+├── docs/                                    # Аналитическая документация
+│   ├── 01_vision_and_scope.md               # Концепция и границы проекта (что входит / не входит)
+│   ├── 02_business_requirements.md          # Бизнес-требования (BRD), приоритеты
+│   ├── 03_user_requirements.md              # Пользовательские требования (роли)
+│   ├── 04_system_requirements.md            # Системные требования (производительность, безопасность)
+│   ├── 05_functional_requirements.md        # Функциональные требования (модули)
+│   ├── glossary.md                          # Глоссарий (26 терминов)
+│   └── ТЗ_платформа_квестов.md              # Сводное ТЗ и ссылки на артефакты
+├── business_processes/                      # Use Cases (варианты использования)
+│   ├── UC-01_create_quest.md                # Создание квеста (автор)
+│   ├── UC-02_play_quest.md                  # Прохождение квеста (игрок)
+│   └── UC-03_validate_graph.md              # Валидация графа (система)
+├── data_modeling/                           # Моделирование данных
+│   ├── schema.sql                           # DDL (CREATE TABLE, FOREIGN KEY, CHECK)
+│   ├── data_dictionary.md                   # Описание всех таблиц и полей
+│   ├── er_diagram.png                       # ER-диаграмма (~18 сущностей), опционально
+│   ├── er_diagram.pdf                       # PDF диаграммы, опционально
+│   └── erwin_source.erwin                   # Исходник CA ERwin, опционально
+└── sql_queries/                             # Продвинутые SQL-запросы
+    └── validation_cte.sql                   # Рекурсивный CTE — валидация графа (обход, например BFS)
 
 ## Технологии
 
