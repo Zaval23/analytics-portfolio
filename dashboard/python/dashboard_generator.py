@@ -1,11 +1,11 @@
-"""Генерация PNG-графиков. Запуск из dashboard/python: python dashboard_generator.py"""
+"""Генерация PNG-графиков"""
 
 from pathlib import Path
 
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt  # noqa: E402
+import matplotlib.pyplot as plt  
 import pandas as pd
 
 _BASE = Path(__file__).resolve().parent.parent
