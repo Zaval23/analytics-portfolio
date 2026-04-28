@@ -1,6 +1,4 @@
--- =============================================================================
 -- Схема БД «Социальная сеть» (PostgreSQL)
--- =============================================================================
 DROP TABLE IF EXISTS MessageReadStatus CASCADE;
 DROP TABLE IF EXISTS Messages CASCADE;
 DROP TABLE IF EXISTS MediaFiles CASCADE;
