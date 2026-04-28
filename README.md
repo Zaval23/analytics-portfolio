@@ -19,8 +19,8 @@ GitHub: [Zaval23](https://github.com/Zaval23)
 
 ## Проекты
 
-### [Платформа квестов](quest-platform/) *(главный проект)*
-**Роль:** ИТ-аналитик. 18 таблиц, 26 терминов, 7 бизнес-процессов, 3 Use Case, валидация графа через рекурсивный CTE.
+### [Платформа квестов](quest-platform/) 
+**Роль:** ИТ-аналитик. 18 таблиц, 24 термина, 7 бизнес-процессов, 3 Use Case, валидация графа через рекурсивный CTE.
 
  [Vision & Scope](quest-platform/docs/01_vision_and_scope.md) · [BRD](quest-platform/docs/02_business_requirements.md) · [ER-диаграмма](quest-platform/data_modeling/er_diagram.png) · [Use Cases](quest-platform/business_processes/)
 
