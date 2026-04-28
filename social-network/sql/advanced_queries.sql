@@ -1,4 +1,3 @@
--- ADVANCED SQL QUERIES | Социальная сеть
 -- 10 показательных запросов
 
 -- 1. PIVOT-аналитика: распределение рождений по временам года (запрос №38)
@@ -181,7 +180,7 @@ WHERE NOT EXISTS (
 );
 
 
--- 10. GENERATE_SERIES + анти-JOIN: дни без публикаций (запрос №58)
+-- 10. GENERATE_SERIES и анти-JOIN: дни без публикаций (запрос №58)
 -- Демонстрирует: генерация временного ряда, NOT EXISTS
 SELECT d::DATE AS day_date
 FROM GENERATE_SERIES(
