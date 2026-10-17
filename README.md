@@ -19,30 +19,31 @@ GitHub: [Zaval23](https://github.com/Zaval23)
 
 ## Проекты
 
-### 1) FitJournal (Курсовая работа, Fullstack)
+### 1) [FitJournal (Курсовая работа, Fullstack)](https://github.com/Zaval23/FitJournal)
 Веб-приложение для дневника тренировок. **Стек:** Java 17, Spring Boot 3, Spring Security (JWT), PostgreSQL, React + TypeScript.
 **Роль:** спроектировал ER-модель (12+ сущностей), реализовал REST API, ролевую модель (USER, TRAINER, ADMIN), писал SQL для агрегации данных.
 
 🔗 [Репозиторий с кодом FitJournal](https://github.com/Zaval23/FitJournal)
 
-### 2) Платформа квестов (ИТ-аналитик)
-Роль: ИТ-аналитик. 18 таблиц, 24 термина, 7 бизнес-процессов, 3 Use Case, валидация графа через рекурсивный CTE.
+### 2) [Платформа квестов](quest-platform/)
+**Роль:** ИТ-аналитик. 18 таблиц, 24 термина, 7 бизнес-процессов, 3 Use Case, валидация графа через рекурсивный CTE.
 
 [Vision & Scope](quest-platform/docs/01_vision_and_scope.md) · [BRD](quest-platform/docs/02_business_requirements.md) · [ER-диаграмма](quest-platform/data_modeling/er_diagram.png) · [Use Cases](quest-platform/business_processes/)
 
-### 3) UML-моделирование (Системный аналитик)
+### 3) [UML-моделирование](uml-modeling/)
 Разработал комплект UML-диаграмм для трех учебных проектов: аукционная система, бронирование отелей и социальная сеть. 
 Использованы: Use Case, диаграммы классов, деятельности, состояний, компонентов, пакетов и развертывания.
 
 [Аукционная система](uml-modeling/auction/) · [Бронирование](uml-modeling/hotel-booking/) · [Развертывание соцсети](uml-modeling/social-network/)
 
-### 4) Социальная сеть (SQL)
+### 4) [Социальная сеть](social-network/)
 60 SQL-запросов (PIVOT, рекурсивные CTE, оконные функции). Проект показывает уверенное владение SQL.
 
 [ER-диаграмма](social-network/docs/ER_diagram.png) · [Схема БД](social-network/sql/schema.sql) · [10 показательных запросов](social-network/sql/advanced_queries.sql)
 
-### 5) Дашборд активности (BI)
+### 5) [Дашборд активности](dashboard/)
 Python-скрипт генерирует дашборд по данным 320+ сессий. 4 графика: активность, концовки, длительность, процент успеха.
 
 [Скрипт](dashboard/python/dashboard_generator.py) · [Данные (CSV)](dashboard/data/game_sessions.csv) · [Графики (PNG)](dashboard/screenshots/)
+
 ---
