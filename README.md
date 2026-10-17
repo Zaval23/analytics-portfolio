@@ -34,7 +34,7 @@
 Веб-приложение для дневника тренировок. **Стек:** Java 17, Spring Boot 3, Spring Security (JWT), PostgreSQL, React + TypeScript.
 **Роль:** спроектировал ER-модель (12+ сущностей), реализовал REST API, ролевую модель (USER, TRAINER, ADMIN), писал SQL для агрегации данных.
 
-🔗 [Репозиторий с кодом FitJournal](https://github.com/Zaval23/FitJournal)
+[Репозиторий с кодом FitJournal](https://github.com/Zaval23/FitJournal)
 
 ### 2) [Платформа квестов](quest-platform/)
 **Роль:** ИТ-аналитик. 18 таблиц, 24 термина, 7 бизнес-процессов, 3 Use Case, валидация графа через рекурсивный CTE.
