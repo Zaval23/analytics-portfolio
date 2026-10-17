@@ -39,4 +39,10 @@ Python-скрипт генерирует дашборд по данным 320+ �
 Использованы: Use Case, диаграммы классов, деятельности, состояний, компонентов, пакетов и развертывания.
 
 [Аукционная система](uml-modeling/auction/) · [Бронирование](uml-modeling/hotel-booking/) · [Развертывание соцсети](uml-modeling/social-network/)
+
+### 5) FitJournal (Курсовая работа, Fullstack)
+Веб-приложение для дневника тренировок. **Стек:** Java 17, Spring Boot 3, Spring Security (JWT), PostgreSQL, React + TypeScript.
+**Роль:** спроектировал ER-модель (12+ сущностей), реализовал REST API, ролевую модель (USER, TRAINER, ADMIN), писал SQL для агрегации данных.
+
+🔗 [Репозиторий с кодом](https://github.com/Zaval23/FitJournal)
 ---
