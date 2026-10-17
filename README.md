@@ -26,8 +26,12 @@ GitHub: [Zaval23](https://github.com/Zaval23)
  
 ### [Социальная сеть](social-network/)
 60 SQL-запросов (PIVOT, рекурсивные CTE, оконные функции). Проект показывает уверенное владение SQL.
+
+[ER-диаграмма](social-network/docs/ER_diagram.png) · [Схема БД](social-network/sql/schema.sql) · [10 показательных запросов](social-network/sql/advanced_queries.sql)
  
 ###  [Дашборд активности](dashboard/)
 Python-скрипт генерирует дашборд по данным 320+ сессий. 4 графика: активность, концовки, длительность, процент успеха.
+
+[Скрипт](dashboard/python/dashboard_generator.py) · [Данные (CSV)](dashboard/data/game_sessions.csv) · [Графики (PNG)](dashboard/screenshots/)
 
 ---
