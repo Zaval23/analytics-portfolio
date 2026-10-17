@@ -22,16 +22,10 @@ GitHub: [Zaval23](https://github.com/Zaval23)
 ### [Платформа квестов](quest-platform/) 
 **Роль:** ИТ-аналитик. 18 таблиц, 24 термина, 7 бизнес-процессов, 3 Use Case, валидация графа через рекурсивный CTE.
 
- [Vision & Scope](quest-platform/docs/01_vision_and_scope.md) · [BRD](quest-platform/docs/02_business_requirements.md) · [ER-диаграмма](quest-platform/data_modeling/er_diagram.png) · [Use Cases](quest-platform/business_processes/)
-
 ### [Социальная сеть](social-network/)
 60 SQL-запросов (PIVOT, рекурсивные CTE, оконные функции). Проект показывает уверенное владение SQL.
-
- [ТЗ (60 задач)](social-network/docs/ТЗ_соцсеть.md) · [advanced_queries.sql](social-network/sql/advanced_queries.sql) · [ER-диаграмма](social-network/docs/ER_diagram.png)
  
 ###  [Дашборд активности](dashboard/)
 Python-скрипт генерирует дашборд по данным 320+ сессий. 4 графика: активность, концовки, длительность, процент успеха.
-
- [README дашборда](dashboard/) · [Скрипт](dashboard/python/dashboard_generator.py) · [Графики (PNG)](dashboard/screenshots/)
 
 ---
