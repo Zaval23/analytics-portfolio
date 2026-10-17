@@ -23,17 +23,17 @@ GitHub: [Zaval23](https://github.com/Zaval23)
 **Роль:** ИТ-аналитик. 18 таблиц, 24 термина, 7 бизнес-процессов, 3 Use Case, валидация графа через рекурсивный CTE.
 
  [Vision & Scope](quest-platform/docs/01_vision_and_scope.md) · [BRD](quest-platform/docs/02_business_requirements.md) · [ER-диаграмма](quest-platform/data_modeling/er_diagram.png) · [Use Cases](quest-platform/business_processes/)
- 
+------------------------------------------------------------------------------------
 ### [Социальная сеть](social-network/)
 60 SQL-запросов (PIVOT, рекурсивные CTE, оконные функции). Проект показывает уверенное владение SQL.
 
 [ER-диаграмма](social-network/docs/ER_diagram.png) · [Схема БД](social-network/sql/schema.sql) · [10 показательных запросов](social-network/sql/advanced_queries.sql)
- 
+------------------------------------------------------------------------------------
 ###  [Дашборд активности](dashboard/)
 Python-скрипт генерирует дашборд по данным 320+ сессий. 4 графика: активность, концовки, длительность, процент успеха.
 
 [Скрипт](dashboard/python/dashboard_generator.py) · [Данные (CSV)](dashboard/data/game_sessions.csv) · [Графики (PNG)](dashboard/screenshots/)
-
+------------------------------------------------------------------------------------
 ###  [UML-моделирование](auction-system/)
 Разработал комплект UML-диаграмм для трех предметных областей: аукционная система, бронирование отелей и социальная сеть. Использованы: Use Case, классы, деятельность, состояния, компоненты, пакеты, развертывание.
 
